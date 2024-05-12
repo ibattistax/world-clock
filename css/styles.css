@@ -1,0 +1,22 @@
+body {
+  background: #feffdf;
+}
+
+.container {
+  background: #97cba9;
+  padding: 15px;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.6;
+}
