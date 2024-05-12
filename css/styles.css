@@ -1,22 +1,82 @@
 body {
-  background: #feffdf;
+  background: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
-  background: #97cba9;
+  background: rgb(167, 214, 189);
   padding: 15px;
-  max-width: 900px;
+  max-width: 600px;
   display: block;
-  margin: 0 auto;
-  border-radius: 5px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .world-clock-header {
   text-align: center;
 }
+select {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  min-width: 550px;
+  background-color: white;
+  margin-bottom: 40px;
+}
 
+/* option {
+  background: rgba(255, 255, 240, 0.932);
+  color: #668ba4;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+} */
+
+.city h2 {
+  margin: 0 0 5px;
+}
+
+.city {
+  display: flex;
+  margin: 20px auto;
+  justify-content: space-between;
+  height: 100px;
+  border-bottom: dashed rgba(100, 100, 111, 0.2);
+}
+
+.city:last-child {
+  border-bottom: none;
+}
+.city .time {
+  font-size: 42px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.city .date {
+  opacity: 0.7;
+}
+.city .empty-select-option {
+  opacity: 0.5;
+}
 footer {
+  margin-top: 20px;
   text-align: center;
   font-size: 15px;
   opacity: 0.6;
+}
+
+a {
+  text-decoration: none;
+}
+.github {
+  color: black;
+  opacity: 0.6;
+  font-weight: bold;
+}
+.github:hover {
+  text-decoration: underline;
 }
