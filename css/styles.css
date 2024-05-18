@@ -17,6 +17,20 @@ body {
 .world-clock-header {
   text-align: center;
 }
+
+.world-clock-header a:link {
+  color: black;
+}
+.world-clock-header a:visited {
+  text-decoration: none;
+  color: black;
+}
+.world-clock-header a:hover {
+  color: black;
+}
+.world-clock-header a:active {
+  color: black;
+}
 select {
   display: block;
   margin: 0 auto;
