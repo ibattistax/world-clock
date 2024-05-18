@@ -11,26 +11,28 @@
   <body>
     <div class="container">
       <h1 class="world-clock-header">World Clock</h1>
-      <select name="cities" id="cities">
+      <select id="city">
         <option value="">Select a city...</option>
-        <option value="Europe/London">London</option>
-        <option value="America/New-York">New York</option>
+        <option value="Europe/Paris">Paris</option>
+        <option value="America/Los_Angeles">Los Angeles</option>
         <option value="Australia/Sydney">Sydney</option>
       </select>
-      <div class="city" id="london">
-        <div>
-          <h2 class="city-name">London 🇬🇧</h2>
-          <div class="date"></div>
+      <div class="cities" id="cities">
+        <div class="city" id="london">
+          <div>
+            <h2 class="city-name">London</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
+        <div class="city" id="new-york">
+          <div>
+            <h2 class="city-name">New York</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
       </div>
-      <!-- <div class="city">
-        <div>
-          <h2 class="city-name" id="new-york">New York 🗽</h2>
-          <div class="date">Sunday 12 May 2024</div>
-        </div>
-        <div class="time">14:54:00 <small>AM</small></div>
-      </div> -->
     </div>
     <footer>
       This project was coded with ♡ by <strong>Isabel Battista </strong>and is
