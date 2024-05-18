@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock - Isabel Battista</title>
   </head>
   <body>
@@ -15,27 +17,20 @@
         <option value="America/New-York">New York</option>
         <option value="Australia/Sydney">Sydney</option>
       </select>
-      <div class="city">
+      <div class="city" id="london">
         <div>
           <h2 class="city-name">London 🇬🇧</h2>
-          <div class="date">Sunday 12 May 2024</div>
+          <div class="date"></div>
         </div>
-        <div class="time">14:54:00 <small>AM</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <!-- <div class="city">
         <div>
-          <h2 class="city-name">New York 🗽</h2>
+          <h2 class="city-name" id="new-york">New York 🗽</h2>
           <div class="date">Sunday 12 May 2024</div>
         </div>
         <div class="time">14:54:00 <small>AM</small></div>
-      </div>
-      <div class="city">
-        <div>
-          <h2 class="city-name">Sydney 🇦🇺</h2>
-          <div class="date">Sunday 12 May 2024</div>
-        </div>
-        <div class="time">14:54:00 <small>AM</small></div>
-      </div>
+      </div> -->
     </div>
     <footer>
       This project was coded with ♡ by <strong>Isabel Battista </strong>and is
